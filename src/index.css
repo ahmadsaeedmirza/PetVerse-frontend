@@ -1,0 +1,224 @@
+@import url(fonts.css);
+@import "tailwindcss";
+
+.c-orange {
+    background-color: #F05147 !important;
+}
+
+.c-text-orange {
+    color: #F05147 !important;
+}
+
+.c-link-blue {
+    color: #4285F4 !important;
+}
+
+.c-yellow {
+    background-color: #FFECEB;
+}
+
+.c-light-gray {
+    background-color: #E9E9E9;
+}
+
+.c-text-light-gray {
+    color: #E9E9E9;
+}
+
+.c-almost-white {
+    background-color: #F2F2F2;
+}
+
+.c-tea-green {
+    background-color: #C8E6B4;
+}
+
+.c-lime-green {
+    background-color: #92CC7F;
+}
+
+.c-light-pink {
+    background-color: #B4E6DD;
+}
+
+.c-dark-pink {
+    background-color: #62C5BB;
+}
+
+.c-light-purple {
+    background-color: #E6B4E4;
+}
+
+.c-light-pink {
+    background-color: #FFECEB;
+}
+
+.c-dark-purple {
+    background-color: #C562BB;
+}
+
+.total-appointments {
+    background: #62C5BB;
+    background: linear-gradient(135deg, rgba(98, 197, 187, 1) 0%, rgba(180, 230, 221, 1) 100%);
+}
+
+.total-reviews {
+    background: #92CC7F;
+    background: linear-gradient(135deg, rgba(146, 204, 127, 1) 0%, rgba(200, 230, 180, 1) 100%);
+}
+
+.total-patients {
+    background: #C562BB;
+    background: linear-gradient(135deg, rgba(197, 98, 187, 1) 0%, rgba(230, 180, 228, 1) 100%);
+}
+
+.total-revenue {
+    background: #F79E1B;
+    background: linear-gradient(135deg, rgba(247, 158, 27, 1) 0%, rgba(251, 188, 5, 1) 100%);
+}
+
+/* CUSTOM SHADOW */
+
+.c-shadow {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+/* CUSTOM CLASS FOR INPUT */
+.input-custom {
+    border: 2px solid #F05147;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Remove arrows in Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove arrows in Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Normal weights */
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.font-montserrat-thin {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.font-montserrat-extralight {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.font-montserrat-light {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.font-montserrat-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.font-montserrat-medium {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.font-montserrat-semibold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.font-montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.font-montserrat-extrabold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.font-montserrat-black {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/* Italic weights */
+.font-montserrat-thin-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.font-montserrat-extralight-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.font-montserrat-light-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.font-montserrat-regular-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-montserrat-medium-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.font-montserrat-semibold-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.font-montserrat-bold-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.font-montserrat-extrabold-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.font-montserrat-black-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
